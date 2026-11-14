@@ -1,0 +1,20 @@
+Клонировать репозиторий: git clone HTTPS ссылка
+
+Сохранить репозиторий:
+git add название
+git commit -m
+git push origin main
+
+Запуск агента ssh
+eval "$(ssh-agent -s)"
+
+Добавление ключа в агент
+ssh-add ~/.ssh/id_ed25519
+
+Генерация ключа
+ssh-keygen -t ed25519 -C "<например: 209-028>"
+
+Чтение ключа
+cat ~/.ssh/id_ed25519.pub
+
+cd просмотр пути к папке
