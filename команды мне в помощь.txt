@@ -2,7 +2,7 @@
 
 Сохранить репозиторий:
 git add название
-git commit -m
+git commit -m 'название'
 git push origin main
 
 Запуск агента ssh
